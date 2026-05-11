@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/imac/Desktop/app_for_valen/app/watch/%5Bid%5D/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { useSearchParams } from \"next/navigation\";\n\nexport default function WatchPage({ params }: any) {\n  const searchParams = useSearchParams();\n  const token = searchParams.get(\"token\");\n\n  return (\n    <div>\n      <h1>Watching {params.id}</h1>\n      <p>Token: {token}</p>\n    </div>\n  );\n}\n``"],"names":["WatchPage","params","searchParams","token","get","id"],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAASA,UAAU,EAAEC,MAAM,EAAO;IAC/C,MAAMC,eAAe,IAAA,qJAAe;IACpC,MAAMC,QAAQD,aAAaE,GAAG,CAAC;IAE/B,qBACE,8OAAC;;0BACC,8OAAC;;oBAAG;oBAAUH,OAAOI,EAAE;;;;;;;0BACvB,8OAAC;;oBAAE;oBAAQF;;;;;;;;;;;;;AAGjB;AACA,EAAE"}}]
+}
